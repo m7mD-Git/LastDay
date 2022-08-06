@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ///// adfnslgldhndhkdm
+        Log.w("GIT","dfgdfgdfgdfg");
+
         databaseClass = new MyDatabaseClass(this);
         ins = findViewById(R.id.insert);
         del = findViewById(R.id.delete);
